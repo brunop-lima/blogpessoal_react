@@ -20,7 +20,7 @@ import axios from "axios";
  * - /postagens é a URL do endpoint
  */
 const api = axios.create({
-    baseURL: 'https://blogpessoal-hogn.onrender.com'
+    baseURL: 'https://blogpessoal-hukq.onrender.com'
 })
 
 /**
