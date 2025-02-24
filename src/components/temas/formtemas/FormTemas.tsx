@@ -6,7 +6,7 @@ import Tema from "../../../models/Tema";
 import { atualizar, buscar, cadastrar } from "../../../services/Services"; 
 import { ToastAlerta } from "../../../util/ToastAlert";
 
-function FormTema() {
+function FormTemas() {
 
     const navigate = useNavigate();
 
@@ -131,4 +131,4 @@ function FormTema() {
     );
 }
 
-export default FormTema;
+export default FormTemas;

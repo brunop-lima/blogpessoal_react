@@ -7,7 +7,7 @@ import Login from './pages/login/Login'
 import Cadastro from './pages/cadastro/Cadastro'
 import { AuthProvider } from './contexts/AuthContext'
 import ListaTemas from './components/temas/listatemas/ListaTemas'
-import FormTema from './components/temas/formTemas/FormTemas'
+import FormTemas from './components/temas/formTemas/FormTemas'
 import DeletarTema from './components/temas/deletarTemas/DeletarTemas'
 import ListaPostagens from './components/postagens/listaPostagens/ListraPostagens'
 import FormPostagem from './components/postagens/formPostagem/FormPostagem'
@@ -30,8 +30,8 @@ function App() {
               <Route path="/cadastro" element={<Cadastro />} />
               <Route path="/login" element={<Login />} />
               <Route path="/temas" element={<ListaTemas />} />
-              <Route path="/cadastrartema" element={<FormTema />} />
-              <Route path="/editartema/:id" element={<FormTema />} />
+              <Route path="/cadastrartema" element={<FormTemas />} />
+              <Route path="/editartema/:id" element={<FormTemas />} />
               <Route path="/deletartema/:id" element={<DeletarTema />} />
               <Route path="/postagens" element={<ListaPostagens />} />
               <Route path="/cadastrarpostagem" element={<FormPostagem />} />
