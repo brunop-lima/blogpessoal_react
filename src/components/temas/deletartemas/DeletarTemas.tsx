@@ -6,7 +6,7 @@ import { buscar, deletar } from "../../../services/Services"
 import { RotatingLines } from "react-loader-spinner"
 import { ToastAlerta } from "../../../util/ToastAlert"
 
-function DeletarTema() {
+function DeletarTemas() {
 
     const navigate = useNavigate()
 
@@ -45,7 +45,7 @@ function DeletarTema() {
         }
     }, [id])
 
-    async function deletarTema() {
+    async function DeletarTemas() {
         setIsLoading(true)
 
         try {
@@ -93,7 +93,7 @@ function DeletarTema() {
                     <button 
                         className='w-full text-slate-100 bg-indigo-400 
                                    hover:bg-indigo-600 flex items-center justify-center'
-                                   onClick={deletarTema}>
+                                   onClick={DeletarTemas}>
                         {isLoading ?
                             <RotatingLines
                                 strokeColor="white"
@@ -110,4 +110,4 @@ function DeletarTema() {
         </div>
     )
 }
-export default DeletarTema
+export default DeletarTemas
