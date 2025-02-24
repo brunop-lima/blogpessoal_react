@@ -5,6 +5,7 @@ import { AuthContext } from "../../../contexts/AuthContext";
 import Tema from "../../../models/Tema";
 import CardTemas from "../cardTemas/CardTemas"; 
 import { buscar } from "../../../services/Services";
+import { ToastAlerta } from "../../../util/ToastAlert";
 
 function ListaTemas() {
 
@@ -29,7 +30,7 @@ function ListaTemas() {
 
     useEffect(() => {
         if (token === '') {
-            alert('Você precisa estar logado!')
+            ToastAlerta('Você precisa estar logado!', "info")
             navigate('/')
         }
     }, [token])
