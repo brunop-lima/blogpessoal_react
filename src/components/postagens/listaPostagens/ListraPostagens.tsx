@@ -4,7 +4,7 @@ import { AuthContext } from "../../../contexts/AuthContext";
 import Postagem from "../../../models/Postagem";
 import { buscar } from "../../../services/Services";
 import { DNA } from "react-loader-spinner";
-import CardPostagens from "../cardPostagens/CardPostagens";
+import CardPostagens from "../cardpostagens/CardPostagens";
 import { ToastAlerta } from "../../../util/ToastAlert";
 
 function ListaPostagens() {

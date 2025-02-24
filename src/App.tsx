@@ -11,12 +11,12 @@ import Home from './pages/home/Home';
 import Login from './pages/login/Login';
 import Cadastro from './pages/cadastro/Cadastro';
 import ListaTemas from './components/temas/listatemas/ListaTemas';
-import FormTemas from './components/temas/formTemas/FormTemas';
-import ListaPostagens from './components/postagens/listaPostagens/ListraPostagens';
-import FormPostagem from './components/postagens/formPostagem/FormPostagem';
-import DeletarPostagem from './components/postagens/deletarPostagens/DeletarPostagens';
+import FormTemas from './components/temas/formtemas/FormTemas';
+import ListaPostagens from './components/postagens/listapostagens/ListraPostagens';
+import FormPostagem from './components/postagens/formpostagem/FormPostagem';
+import DeletarPostagem from './components/postagens/deletarpostagens/DeletarPostagens';
 import Perfil from './pages/perfil/Perfil';
-import DeletarTemas from './components/temas/deletarTemas/DeletarTemas';
+import DeletarTemas from './components/temas/deletartemas/DeletarTemas';
 
 
 function App() {
