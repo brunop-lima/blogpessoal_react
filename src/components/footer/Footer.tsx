@@ -19,7 +19,7 @@ function Footer() {
                     <p className='text-xl font-bold'>
                         Blog Pessoal Bruno | Copyright: {data}
                     </p>
-                    <p className='text-lg'>Acesse nossas redes sociais</p>
+                    <p className='text-lg'>Acesse minhas redes sociais</p>
                     <div className='flex gap-2'>
                         <a href="https://www.linkedin.com/in/brunoplima01/" target="_blank">
                             <LinkedinLogo size={48} weight='bold' />
